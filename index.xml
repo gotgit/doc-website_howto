@@ -68,6 +68,9 @@ eastmd portal configuration
 <sect2><title>CVS进行版本控制</title>
 <warning>
 <para>
+CVS 已经过时，Git 是版本控制的最佳选择。（I wrote a book on Git at 2011, and becomes a Git contributor since then.）
+</para>
+<para>
 没有版本控制的软件开发，永远只能是作坊式的开发。成本高，风险大。
 </para>
 </warning>
@@ -647,14 +650,20 @@ OR     mysqldump [OPTIONS] --all-databases [OPTIONS]
 </sect2>
 
 <sect2><title>SQL JOIN</title>
-<note>
-<para>
-参见：<ulink url="http://www.webreview.com/dd/2000/02_25_00_2.shtml">How to Join Multiple SQL Tables - Part 2: Types of Joins</ulink>, <ulink url="http://www.w3schools.com/sql/sql_join.asp">SQL JOIN...</ulink>, <ulink url="http://www.peyo-home.sk/index.html?sql_tutorial/multiple_tables.htm~main">Free SQL Tutorial</ulink>, <ulink url="http://www.cecs.csulb.edu/~jewett/dbdesign/dbprint.php?page=jointypes.php&amp;imgsize=medium">SQL queries: join types</ulink>.
+<para>参考链接
 </para>
-</note>
+<itemizedlist>
+<listitem>
 <para>
-Cartesian join, Inner join, Outer join(Left join, Right join), Self join.
+<ulink url="https://blog.udemy.com/beginners-guide-to-sql/">A Beginner’s Guide to SQL</ulink>
 </para>
+</listitem>
+<listitem>
+<para>
+<ulink url="http://www.w3schools.com/sql/sql_join.asp">W3SCHOOLS: SQL JOIN</ulink>
+</para>
+</listitem>
+</itemizedlist>
 </sect2>
 
 <sect2><title>Others</title>
